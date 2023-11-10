@@ -28,7 +28,7 @@ public static class GameData
             return _jobGroups;
 
         var sheet = dataManager.GetExcelSheet<ClassJobCategory>()!;
-        var jobs  = dataManager.GetExcelSheet<ClassJob>(ClientLanguage.English)!;
+        var jobs  = dataManager.GetExcelSheet<ClassJob>(ClientLanguage.Korean)!;
 
         static bool ValidIndex(uint idx)
         {
